@@ -1,0 +1,36 @@
+.big_box {
+	margin: auto;
+	color: gray;
+	width: 875px;
+	position: relative;
+	top: 60%;
+	height: 400px;
+}
+
+#first_box article {
+	color: gray;
+	position: absolute;
+	left: 0;
+	width: 420px;
+}
+
+#second_box article {
+	color: gray;
+	position: absolute;
+	right: 0;
+	width: 420px;
+}
+
+.MiscInfo {
+	text-align: center;
+	margin: auto;
+	color: gray;
+	padding: 10px;
+	width: 400px;
+	position: relative;
+	bottom: -500px;
+}
+
+p {
+	color: gray;
+}
