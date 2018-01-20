@@ -4,7 +4,7 @@ h1 {
 	padding-top: 5cm;
 	padding-bottom: 4cm;
 	font-size: 70px;
-	color: #ACACAC;
+	color: #909090;
 	font-weight: 900;
     text-shadow: 4px 4px #3b0160;
 }
@@ -26,3 +26,11 @@ p#second {
 	text-align: center;
 }
 
+div#testDiv {
+    border: solid;
+    height: 10%;
+}
+
+.currentHeadLinkImg{
+    height: 100%;
+}

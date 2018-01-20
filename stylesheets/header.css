@@ -1,15 +1,15 @@
 a:link {
-	font-family: "Raleway", serif;
-	color: #A84CAD;
+	font-family: "Ropa Sans", serif;
+	color: #3b0160;
 	position: relative;
 	margin: 20px;
-    text-decoration: none;
-    text-shadow: 1px 1px #5F4B8B;
+  text-decoration: none;
+  text-shadow: 1px 1px #5F4B8B;
 }
 
 a:visited {
 	text-decoration: none;
-	color: #bf3eff;
+	color: #3b0160;
 }
 
 a:hover {
@@ -17,11 +17,47 @@ a:hover {
 	text-decoration: underline;
 }
 
+/*a.navlink {
+	float: right;
+	border: solid;
+}*/
+
 a#currentPage {
     font-style: italic;
     text-decoration: underline;
 }
 
+div#headerDiv {
+    height: 23;
+		text-align: center;
+}
+
+div#headerDiv div {
+		display: inline-block;
+		width: 108px;
+		/*border: solid;*/
+}
+
+div#headerDiv span {
+	/*border: solid;*/
+	position: relative;
+	float: right;
+}
+
+div#headerDiv span#currentPageImg {
+	position: relative;
+	float: left;
+	display: inline-block;
+	padding-top: 2px;
+	height: 13px;
+	width: 4px;
+}
+
+.currentHeadLink{
+		height: 100%;
+		width: 4px;
+}
+
 body {
-	background: black;
+	background: #A9A9A9;
 }
