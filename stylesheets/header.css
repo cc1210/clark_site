@@ -28,6 +28,7 @@ a#currentPage {
 }
 
 div#headerDiv {
+		margin: 4px;
     height: 23;
 		text-align: center;
 }
